@@ -1,0 +1,13 @@
+prefix=/Users/pavcha/LLMTestCaseGen/venv
+exec_prefix=/Users/pavcha/LLMTestCaseGen/venv
+libdir=/Users/pavcha/LLMTestCaseGen/venv/lib
+sharedlibdir=/Users/pavcha/LLMTestCaseGen/venv/lib
+includedir=/Users/pavcha/LLMTestCaseGen/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
